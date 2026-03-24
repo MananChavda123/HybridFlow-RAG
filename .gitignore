@@ -1,2 +1,25 @@
-models/*
-env
+.env
+__pycache__/
+*.pyc
+*.pkl
+
+# Model checkpoints
+llama2_finetuned/
+tinyllama_finetuned/
+checkpoints/
+env/
+
+# Large binaries
+*.pt
+*.bin
+*.safetensors
+
+# VS Code
+.vscode/
+
+# Cognee (external repo)
+cognee/
+# env
+# tinyllama_finetuned
+# cognee
+# llama2_finetuned

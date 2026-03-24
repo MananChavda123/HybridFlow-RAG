@@ -1,0 +1,14 @@
+It seems that the document you provided is a manual for an HR system or an attendance tracking software. The document covers various features and functionalities of the system, including leave planning, exception approval, user tracking, reports, and custom reports.
+
+Here are some key points from the document:
+
+1. Leave Planner: The pictorial representation of the leave status of the team lets the employee decide whether to approve or reject the leave applied by any of his/her teammates.
+2. Leave Ledger Report: This function lets the user generate a ledger report for him/her, which will display all the leave transactions made within the ‘from’ and ‘to’ date.
+3. Custom Reports: With this function, the reports that are specifically designed for employees and are available will be displayed here. Thus, it would be easy for an employee when s/he is required to send a similar type of report repeatedly.
+4. Authority Delegation: This function lets the user check the sanctioning authorities assigned to the employee similar to the sanctioning process in the Visitor Management module.
+5. Leave Card Report: This function lets the user view all the information like leave taken, leave balance, dates when the leave were taken, type of leave taken etc.
+6. User Tracking: The pictorial representation of the user's activity lets the employee decide whether to approve or reject the leave applied by any of his/her teammates.
+7. Reports: The system provides various reports, including leave planner, leave ledger report, custom report, and leave card report.
+8. Pre-requisites: Some of the functions have pre-requisites, such as the attendance management module being mandatory for certain functions.
+
+Overall, it seems that the system is designed to help organizations manage their employee attendance and leave more efficiently.

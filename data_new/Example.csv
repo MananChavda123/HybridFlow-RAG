@@ -1,0 +1,13 @@
+﻿ticket_no,name,ticket_title,description_plain,comments,solution
+T000002,iApp,,mVisitor and mCCTV users are not able to login to the iApp.,"Check iApp log file to login error,
+Check in User master  table to identify duplicate username. ",
+T000002,iApp,,mVisitor and mCCTV users are not able to login to the iApp.,Due to duplicate email id found in workforce master against two active workforce,
+T000003,iApp,,The C Worker Designation and C Worker Department are not appearing after being added in the Lookup Master.,Import lookup in iApp ,Import new lookup master from database 
+T000004,,,To discuss the approval flow for leave.,"As discussed in the meeting, if we import any leave application, it would be posted directly",Explained the sanctioning rules to users
+T000005,iApp,,The card number is different in the iApp and the BioScribe 2C device.,Check Card Format and Site of  card in iApp and decode in binary format that cad,Card is not  added Card Inventory 
+T000005,iApp,,The card number is different in the iApp and the BioScribe 2C device.,Check and found  Card is not  added Card Inventory ,Card is not  added Card Inventory 
+T000005,iApp,,The card number is different in the iApp and the BioScribe 2C device.,we checked the card id parameters.,Card is not  added Card Inventory 
+T000006,,,Data not download show pending,Case forwarded to QC ,Issue Resolved
+T000006,,,Data not download show pending,Issue Resolved,Issue Resolved
+T000007,BioStamp 2C,,The device is not communicating with the iApp Software.,Checked all network parameters .,We requested the client's IT team to open port 9993 and checked all network parameters.
+T000007,BioStamp 2C,,The device is not communicating with the iApp Software.,We requested client IT team to open the port 9993,We requested the client's IT team to open port 9993 and checked all network parameters.

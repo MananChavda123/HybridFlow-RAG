@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Document Start",
+    "content": [
+      "3S Communication Protocol Version 2.30",
+      "are"
+    ]
+  },
+  {
+    "title": "Protocol Definition",
+    "content": [
+      "Commands are sent to and are received from Device must follow this sequence.",
+      "Response to above commands should follow this sequence (in case of no payload is there)",
+      "Response to above commands should follow this sequence (with payload)"
+    ]
+  },
+  {
+    "title": "Examples:",
+    "content": [
+      "Get Status Command Response (response to read flag) (with payload)"
+    ]
+  },
+  {
+    "title": "Data handling rules",
+    "content": [
+      "Data types having more than 8bits (1bytes) like word and long are identified and broken down as per follow in this document.",
+      "Multiple byte are organized as little endian convention. If data type of long having value of AABBCCDDh. Then AA is MSB, BB is USB, CC is HSB and DD is LSB. More information on https://en.wikipedia.org/wiki/Endianness."
+    ]
+  },
+  {
+    "title": "Physical Address For Inputs",
+    "content": [
+      "BIOSTAMP_3S / BIOSCRIBE_3S :: Reader Port 1, 2. Switch 1. Door Sensor 1. Temper 1 ,2. GPI 1,2."
+    ]
+  },
+  {
+    "title": "Physical Address For Outputs",
+    "content": [
+      "Available Outputs Per controllers. Other values are RFU / invalid"
+    ]
+  },
+  {
+    "title": "Upload File Data (06h)",
+    "content": [
+      "File must be created using 05h command first."
+    ]
+  },
+  {
+    "title": "Set finger Template (0Ch)",
+    "content": [
+      "Finger Template Length may be variable. And depends upon finger size setting in fppara."
+    ]
+  },
+  {
+    "title": "Area Setup (1Bh)",
+    "content": [
+      "RFU command. No need to implement"
+    ]
+  },
+  {
+    "title": "Offline Firmware Update (Verify & Start upgrade) (25h)",
+    "content": [
+      "This command will Reset Device if previous commands are executed in proper sequence.  If any error was there this command will report error"
+    ]
+  },
+  {
+    "title": "Get finger Template (41h)",
+    "content": [
+      "Read mode will get only local templates (from sd card), will not get templates from fp module. Returned data length will depend upon finger size setting in fppara. (nominally 384 bytes per finger template) "
+    ]
+  },
+  {
+    "title": "Delete Specific Parameters (42h)",
+    "content": [
+      "This command may take time if multiple parameters are being deleted"
+    ]
+  },
+  {
+    "title": "Add Extended User Information (4Bh)",
+    "content": [
+      "Note: This command may be expanded in future to incorporate more information."
+    ]
+  },
+  {
+    "title": "Enable / Disable Ethernet Modules (F9h)",
+    "content": [
+      "Upon executing this command in write mode device will reboot."
+    ]
+  },
+  {
+    "title": "Recovery Report Frame (E9h)",
+    "content": [
+      "Missed: not uploaded, missed transaction found during recovery",
+      "Uploaded: uploaded transaction found during recovery",
+      "Garbage: useless / corrupt transaction found during recovery"
+    ]
+  }
+]
